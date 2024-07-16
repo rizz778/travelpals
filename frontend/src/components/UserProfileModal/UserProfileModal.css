@@ -1,0 +1,91 @@
+.custom-overlay {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ReactModal__Overlay {
+    z-index: 10; /* Ensure the modal is above other elements */
+  }
+  
+  .ReactModal__Content {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    outline: none;
+  }
+  
+  .ReactModal__Content button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  /* Basic modal styling */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  outline: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10px 0;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.modal-footer button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e2e2e;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-footer button:hover {
+  background-color: #2f2f2f;
+}
+
+.modal-footer .close-button {
+  background-color: #dc3545;
+}
+
+.modal-footer .close-button:hover {
+  background-color: #c82333;
+}

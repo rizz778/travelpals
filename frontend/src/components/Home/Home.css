@@ -1,0 +1,30 @@
+.weblogo img{
+    height: 349px;
+    margin: 54px 585px;
+}
+.content{
+    font-size: 23px;
+    padding: 0px 136px
+}
+body{
+    background-color: #e7e7e7;
+    /* color: white; */
+}
+.content-images img{
+    height: 177px;
+    margin: 1px 519px;
+}
+.para{
+    margin: 46px 0px;
+}
+.btn{
+    margin: 0px 545px;
+    height: 54px;
+    color: black;
+    border: solid 2px black;
+}
+.btn:hover{
+    margin: auto;
+    background-color: black;
+    color: white;
+}
