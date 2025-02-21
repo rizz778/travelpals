@@ -38,8 +38,6 @@ TravelPals is a platform designed for students to find travel companions based o
 
 ---
 
----
-
 ## Installation 🏗️
 
 ### **Prerequisites 🛠️**
