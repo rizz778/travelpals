@@ -61,6 +61,7 @@ Ensure you have the following installed:
    ```bash
    cd frontend
    npm install
+   
 3. **Set up environment variables**:
    Create a .env file in the backend directory and add the following:
    ```bash
