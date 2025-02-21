@@ -40,11 +40,26 @@ TravelPals is a platform designed for students to find travel companions based o
 
 ## Folder Structure 📂
 
-travelpals/ ├── backend/ # Backend code │ ├── controllers/ # Route controllers │ ├── models/ # MongoDB models │ ├── routes/ # API routes │ ├── middleware/ # Custom middleware (e.g., authentication) │ ├── utils/ # Utility functions │ ├── .env # Environment variables │ └── server.js # Entry point for the backend ├── frontend/ # Frontend code │ ├── public/ # Static assets │ ├── src/ # React components and logic │ │ ├── components/ # Reusable components │ │ ├── pages/ # Page components │ │ ├── redux/ # Redux store and slices (optional) │ │ ├── App.js # Main application component │ │ └── index.js # Entry point for the frontend │ └── package.json # Frontend dependencies ├── .gitignore # Files and folders to ignore in Git └── README.md # Project documentation
-
-yaml
-Copy
-Edit
+travelpals/
+├── backend/               # Backend code
+│   ├── controllers/       # Route controllers
+│   ├── models/            # MongoDB models
+│   ├── routes/            # API routes
+│   ├── middleware/        # Custom middleware (e.g., authentication)
+│   ├── utils/             # Utility functions
+│   ├── .env               # Environment variables
+│   └── server.js          # Entry point for the backend
+├── frontend/              # Frontend code
+│   ├── public/            # Static assets
+│   ├── src/               # React components and logic
+│   │   ├── components/    # Reusable components
+│   │   ├── pages/         # Page components
+│   │   ├── redux/         # Redux store and slices (optional)
+│   │   ├── App.js         # Main application component
+│   │   └── index.js       # Entry point for the frontend
+│   └── package.json       # Frontend dependencies
+├── .gitignore             # Files and folders to ignore in Git
+└── README.md              # Project documentation
 
 
 ---
